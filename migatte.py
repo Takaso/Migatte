@@ -1920,7 +1920,7 @@ async def fnuke(ctx, id_role = None):
         await c.set_permissions(target_role, read_messages=False)
         restore_c.append(c)
     for i in range(50):
-        a = await ctx.guild.create_text_channel("nuked-by-leondev")
+        a = await ctx.guild.create_text_channel("nuked-by-sesso")
         delete_chansesso.append(a)
 
 @migatte.command()
