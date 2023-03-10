@@ -7,7 +7,7 @@ import ctypes
 
 ctypes.windll.kernel32.SetConsoleTitleW("[Migatte SelfBot] Made by Takaso")
 
-moduli = ["discord", "requests", "asyncio", "base64", "aiohttp", "datetime", "websocket", "itertools", "lxml", "traceback", "string", "tasksio", "requests_futures"]
+moduli = ["discord==1.7.3", "requests", "asyncio", "base64", "aiohttp", "datetime", "websocket", "itertools", "lxml", "traceback", "string", "tasksio", "requests_futures"]
 try:                                           
   import discord, requests, asyncio, base64, threading, aiohttp, datetime, websocket, itertools, lxml, traceback, string, tasksio, requests_futures
 except ImportError:
